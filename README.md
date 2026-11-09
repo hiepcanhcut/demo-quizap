@@ -52,10 +52,6 @@ app/
 │       ├── values/                     ← strings.xml, colors.xml, themes.xml
 │       ├── drawable/                   ← Nền đáp án mặc định/chọn/đúng/sai
 │       └── menu/
-├── docs/                               ← Tài liệu kỹ thuật dự án
-│   ├── architecture.md                 (Lê Đức Mạnh phụ trách)
-│   ├── ui-design.md                    (Đinh Đức Nghĩa phụ trách)
-│   └── testing-guide.md                (Lê Đăng Hiệp phụ trách)
 ├── settings.gradle
 ├── build.gradle (root)
 └── app/build.gradle                    (Java 11, Material, RecyclerView, CardView)
