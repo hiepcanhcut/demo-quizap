@@ -1,0 +1,32 @@
+<resources>
+    <!-- Brand colors PTIT -->
+    <color name="primary">#C62828</color> <!-- Đỏ PTIT -->
+    <color name="primary_dark">#8E0000</color>
+    <color name="primary_light">#FF5F52</color>
+    <color name="accent">#1976D2</color>
+
+    <!-- UI Backgrounds & Surface -->
+    <color name="background">#F5F5F5</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#EEEEEE</color>
+
+    <!-- Text colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- Quiz state colors -->
+    <color name="answer_default_bg">#FFFFFF</color>
+    <color name="answer_default_stroke">#BDBDBD</color>
+    <color name="answer_selected_bg">#E3F2FD</color>
+    <color name="answer_selected_stroke">#1976D2</color>
+    <color name="answer_correct_bg">#E8F5E9</color>
+    <color name="answer_correct_stroke">#4CAF50</color>
+    <color name="answer_wrong_bg">#FFEBEE</color>
+    <color name="answer_wrong_stroke">#E53935</color>
+
+    <!-- Status colors -->
+    <color name="flag_color">#FF9800</color>
+    <color name="timer_warning">#D32F2F</color>
+</resources>
+

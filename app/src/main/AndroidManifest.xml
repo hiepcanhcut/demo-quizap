@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_quiz_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_quiz_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuizApp">
+
+        <!-- Màn hình chính điều hướng (Tất cả thành viên) -->
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Module 2: Quản lý ngân hàng câu hỏi (Lê Đức Mạnh) -->
+        <activity
+            android:name=".ui.question.QuestionListActivity"
+            android:exported="false"
+            android:label="@string/title_question_bank"
+            android:parentActivityName=".ui.MainActivity" />
+
+        <activity
+            android:name=".ui.question.QuestionEditActivity"
+            android:exported="false"
+            android:label="@string/title_question_edit"
+            android:parentActivityName=".ui.question.QuestionListActivity"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Module 3: Trải nghiệm làm bài thi (Đinh Đức Nghĩa) -->
+        <activity
+            android:name=".ui.exam.ExamSetupActivity"
+            android:exported="false"
+            android:label="@string/title_exam_setup"
+            android:parentActivityName=".ui.MainActivity" />
+
+        <activity
+            android:name=".ui.exam.ExamActivity"
+            android:exported="false"
+            android:label="@string/title_exam_in_progress" />
+
+        <activity
+            android:name=".ui.exam.ResultActivity"
+            android:exported="false"
+            android:label="@string/title_exam_result" />
+
+        <!-- Module 1: Lịch sử & Thống kê làm bài (Lê Đăng Hiệp) -->
+        <activity
+            android:name=".ui.history.HistoryActivity"
+            android:exported="false"
+            android:label="@string/title_exam_history"
+            android:parentActivityName=".ui.MainActivity" />
+
+    </application>
+
+</manifest>
+

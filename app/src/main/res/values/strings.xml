@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">PTIT PrepQuiz</string>
+
+    <!-- Tiêu đề màn hình -->
+    <string name="title_question_bank">Ngân hàng câu hỏi</string>
+    <string name="title_question_edit">Thông tin câu hỏi</string>
+    <string name="title_exam_setup">Thiết lập bài thi</string>
+    <string name="title_exam_in_progress">Đang làm bài thi</string>
+    <string name="title_exam_result">Kết quả bài thi</string>
+    <string name="title_exam_history">Lịch sử bài thi</string>
+
+    <!-- Menu chính -->
+    <string name="welcome_message">Chào mừng đến với PTIT PrepQuiz!</string>
+    <string name="btn_take_exam">Vào thi / Luyện tập</string>
+    <string name="btn_question_bank">Quản lý câu hỏi</string>
+    <string name="btn_history">Lịch sử &amp; Thống kê</string>
+
+    <!-- Ngân hàng câu hỏi -->
+    <string name="search_hint">Tìm kiếm câu hỏi...</string>
+    <string name="filter_all">Tất cả môn</string>
+    <string name="btn_add_question">Thêm câu hỏi mới</string>
+    <string name="btn_restore_sample">Khôi phục câu hỏi mẫu</string>
+    <string name="empty_question_bank">Chưa có câu hỏi nào trong ngân hàng.</string>
+
+    <!-- Form câu hỏi -->
+    <string name="label_content">Nội dung câu hỏi</string>
+    <string name="label_category">Môn học / Chuyên đề</string>
+    <string name="label_option_a">Đáp án A</string>
+    <string name="label_option_b">Đáp án B</string>
+    <string name="label_option_c">Đáp án C</string>
+    <string name="label_option_d">Đáp án D</string>
+    <string name="label_correct_answer">Chọn đáp án đúng:</string>
+    <string name="label_explanation">Lời giải thích chi tiết</string>
+    <string name="btn_save">Lưu câu hỏi</string>
+    <string name="btn_delete">Xóa câu hỏi</string>
+
+    <!-- Thiết lập bài thi -->
+    <string name="select_subject">Chọn môn thi</string>
+    <string name="select_question_count">Số lượng câu hỏi</string>
+    <string name="btn_start_exam">Bắt đầu làm bài</string>
+
+    <!-- Làm bài thi -->
+    <string name="btn_previous">Câu trước</string>
+    <string name="btn_next">Câu sau</string>
+    <string name="btn_submit">Nộp bài</string>
+    <string name="btn_flag">Gắn cờ</string>
+    <string name="btn_unflag">Bỏ cờ</string>
+    <string name="btn_question_grid">Danh sách câu</string>
+    <string name="confirm_submit_title">Xác nhận nộp bài</string>
+    <string name="confirm_submit_message">Bạn có chắc chắn muốn nộp bài? Còn câu chưa trả lời!</string>
+
+    <!-- Kết quả -->
+    <string name="score_label">Điểm số của bạn:</string>
+    <string name="grade_label">Xếp loại:</string>
+    <string name="btn_retry">Làm lại bài này</string>
+    <string name="btn_back_home">Về trang chủ</string>
+    <string name="review_answers">Xem lại đáp án chi tiết</string>
+
+    <!-- Lịch sử -->
+    <string name="empty_history">Bạn chưa hoàn thành bài thi nào.</string>
+</resources>
+
